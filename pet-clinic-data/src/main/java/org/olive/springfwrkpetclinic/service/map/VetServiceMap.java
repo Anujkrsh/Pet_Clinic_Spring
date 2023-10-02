@@ -4,10 +4,11 @@ package org.olive.springfwrkpetclinic.service.map;
 
 import org.olive.springfwrkpetclinic.model.Vet;
 import org.olive.springfwrkpetclinic.service.CrudService;
+import org.olive.springfwrkpetclinic.service.VetService;
 
 import java.util.Set;
 
-public class VetServiceMap extends AbstractMapService<Vet,Long> implements CrudService<Vet,Long> {
+public class VetServiceMap extends AbstractMapService<Vet,Long> implements VetService {
 
     @Override
     public Set<Vet> findall() {

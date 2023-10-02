@@ -12,4 +12,7 @@ public interface CrudService<T, ID>{
     void delete (T object);
 
     void deleteById(ID id);
+
+
+
 }

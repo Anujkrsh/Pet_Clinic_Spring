@@ -5,10 +5,11 @@ package org.olive.springfwrkpetclinic.service.map;
 
 import org.olive.springfwrkpetclinic.model.Owner;
 import org.olive.springfwrkpetclinic.service.CrudService;
+import org.olive.springfwrkpetclinic.service.OwnerService;
 
 import java.util.Set;
 
-public class OwnerServiceMap extends AbstractMapService<Owner,Long> implements CrudService<Owner,Long> {
+public class OwnerServiceMap extends AbstractMapService<Owner,Long> implements OwnerService {
     @Override
     public Set<Owner> findall() {
         return super.findAll();
@@ -31,4 +32,9 @@ public class OwnerServiceMap extends AbstractMapService<Owner,Long> implements C
         super.deleteById(id);
     }
 
+
+    @Override
+    public Owner findByLastName(String Lastname) {
+        return null;
+    }
 }
