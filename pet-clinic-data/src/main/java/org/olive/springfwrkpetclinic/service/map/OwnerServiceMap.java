@@ -1,13 +1,10 @@
 package org.olive.springfwrkpetclinic.service.map;
-
-
-
-
 import org.olive.springfwrkpetclinic.model.Owner;
 import org.olive.springfwrkpetclinic.service.CrudService;
 import org.olive.springfwrkpetclinic.service.OwnerService;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
 import java.util.Set;
 @Service
 public class OwnerServiceMap extends AbstractMapService<Owner,Long> implements OwnerService {
@@ -33,9 +30,8 @@ public class OwnerServiceMap extends AbstractMapService<Owner,Long> implements O
         super.deleteById(id);
     }
 
-
     @Override
-    public Owner findByLastName(String Lastname) {
+    public Owner findByLastName(String lastName) {
         return null;
     }
 }
