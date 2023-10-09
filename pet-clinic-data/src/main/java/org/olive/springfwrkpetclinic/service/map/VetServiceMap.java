@@ -5,9 +5,10 @@ package org.olive.springfwrkpetclinic.service.map;
 import org.olive.springfwrkpetclinic.model.Vet;
 import org.olive.springfwrkpetclinic.service.CrudService;
 import org.olive.springfwrkpetclinic.service.VetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
-
+@Service
 public class VetServiceMap extends AbstractMapService<Vet,Long> implements VetService {
 
     @Override

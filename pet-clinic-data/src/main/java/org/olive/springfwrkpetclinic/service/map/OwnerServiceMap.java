@@ -6,9 +6,10 @@ package org.olive.springfwrkpetclinic.service.map;
 import org.olive.springfwrkpetclinic.model.Owner;
 import org.olive.springfwrkpetclinic.service.CrudService;
 import org.olive.springfwrkpetclinic.service.OwnerService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
-
+@Service
 public class OwnerServiceMap extends AbstractMapService<Owner,Long> implements OwnerService {
     @Override
     public Set<Owner> findall() {

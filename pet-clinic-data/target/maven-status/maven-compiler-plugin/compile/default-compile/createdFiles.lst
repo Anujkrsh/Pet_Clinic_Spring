@@ -1,0 +1,14 @@
+org\olive\springfwrkpetclinic\model\Person.class
+org\olive\springfwrkpetclinic\model\Vet.class
+org\olive\springfwrkpetclinic\service\PetService.class
+org\olive\springfwrkpetclinic\service\VetService.class
+org\olive\springfwrkpetclinic\service\OwnerService.class
+org\olive\springfwrkpetclinic\service\map\PetServiceMap.class
+org\olive\springfwrkpetclinic\service\map\AbstractMapService.class
+org\olive\springfwrkpetclinic\service\map\VetServiceMap.class
+org\olive\springfwrkpetclinic\model\PetType.class
+org\olive\springfwrkpetclinic\model\Owner.class
+org\olive\springfwrkpetclinic\model\Pet.class
+org\olive\springfwrkpetclinic\service\map\OwnerServiceMap.class
+org\olive\springfwrkpetclinic\service\CrudService.class
+org\olive\springfwrkpetclinic\model\BaseEntity.class
